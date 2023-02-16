@@ -34,9 +34,11 @@ export default function Home() {
             <p className="text-3xl  md:text-7xl">
               I&apos;m a fullstack developer in love with programming.
             </p>
-            <button className="flex ] rounded-full bg-black text-white px-4 py-2">
-              Hire me
-            </button>
+            <Link href="mailto:ohenesetwumasi@gmail.com">
+              <button className="flex ] rounded-full bg-black text-white px-4 py-2">
+                Hire me
+              </button>
+            </Link>
           </div>
         </div>
         <div className="text-xl md:-mt-[8rem] py-2 flex justify-end">
