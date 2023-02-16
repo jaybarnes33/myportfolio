@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
 import Toggler from "./Toggler";
+import { BsListNested, BsX } from "react-icons/bs";
 
 const Header = () => {
   const links = ["home", "articles", "projects", "about"];
@@ -14,7 +15,7 @@ const Header = () => {
         onClick={() => setToggle(!toggle)}
         className="md:hidden relative z-50"
       >
-        Menu
+        {!toggle ? <BsListNested /> : <BsX />}
       </div>
       @
       <div

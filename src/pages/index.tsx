@@ -30,7 +30,7 @@ export default function Home() {
               className="h-full md:w-[350px]"
             />
           </div>
-          <div className="md:-ml-[10rem]">
+          <div className="py-3 md:-ml-[10rem]">
             <p className="text-3xl  md:text-7xl">
               I&apos;m a fullstack developer in love with programming.
             </p>
