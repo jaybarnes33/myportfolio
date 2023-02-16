@@ -24,12 +24,12 @@ const Header = () => {
             : "flex items-center justify-center bg-white fixed w-full min-h-full"
         }  transition md:relative  pb-3 top-0 left-0  flex-col md:flex md:flex-row md:jus  items-center flex-1`}
       >
-        <ul className="flex items-center justify-center flex-col md:flex-row md:justify-start md:items-center flex-1 gap-10">
+        <ul className="flex items-center justify-center flex-col md:flex-row md:justify-start md:items-center flex-1 gap-8">
           {links.map((link) => (
             <li
               key={link}
-              className={`hover:bg-yellow-400   hover:text-neutral-800 text-neutral-500 capitalize transition-colors ease-in ${
-                pathname === `/${link}` && "bg-yellow-400 px-2 text-black"
+              className={`px-2 hover:bg-yellow-400   hover:text-neutral-800 text-neutral-500 capitalize transition-colors ease-in ${
+                pathname === `/${link}` && "bg-yellow-400  text-black"
               } ${
                 link === "home" &&
                 pathname === "/" &&
