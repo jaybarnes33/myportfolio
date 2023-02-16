@@ -28,7 +28,7 @@ const Header = () => {
           {links.map((link) => (
             <li
               key={link}
-              className={`hover:bg-yellow-400 hover:px-2  hover:text-neutral-800 text-neutral-500 capitalize transition-colors ease-in ${
+              className={`hover:bg-yellow-400   hover:text-neutral-800 text-neutral-500 capitalize transition-colors ease-in ${
                 pathname === `/${link}` && "bg-yellow-400 px-2 text-black"
               } ${
                 link === "home" &&
