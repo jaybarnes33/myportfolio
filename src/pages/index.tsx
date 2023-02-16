@@ -34,7 +34,11 @@ export default function Home() {
             <p className="text-3xl  md:text-7xl">
               I&apos;m a fullstack developer in love with programming.
             </p>
-            <Link href="mailto:ohenesetwumasi@gmail.com">
+            <Link
+              href="mailto:ohenesetwumasi@gmail.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <button className="flex ] rounded-full bg-black text-white px-4 py-2">
                 Hire me
               </button>

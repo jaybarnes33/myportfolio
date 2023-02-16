@@ -23,7 +23,9 @@ const Socials = () => {
           className="text-neutral-800 transition hover:text-yellow-600 hover:scale-125"
           key={link.link}
         >
-          <Link href={link.link}>{link.icon}</Link>
+          <Link href={link.link} target="_blank" rel="noreferrer noopener">
+            {link.icon}
+          </Link>
         </li>
       ))}
     </ul>
