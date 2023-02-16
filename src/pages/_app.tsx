@@ -5,7 +5,7 @@ import AppContext from "../context/App";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <AppContext>
-      <div className="dark:bg-[#1a1a1a] dark:text-gray-200">
+      <div className="dark:bg-[#1a1a1a] text-neutral-900 dark:text-gray-200">
         <Header />
         <Component {...pageProps} />
       </div>
