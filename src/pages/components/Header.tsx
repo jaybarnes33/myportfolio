@@ -5,7 +5,7 @@ import Toggler from "./Toggler";
 const Header = () => {
   const links = ["home", "articles", "projects", "about"];
   return (
-    <div className="border-b-2 border-white md:border-none px-5 font-text items-center text-xl py-2 flex gap-3 justify-between">
+    <div className="border-b-2 border-white md:border-none px-5  items-center text-xl py-2 flex gap-3 justify-between">
       <div className="md:hidden">Menu</div>@
       <div className=" hidden md:flex  items-center flex-1">
         <ul className="flex flex-1 gap-10">

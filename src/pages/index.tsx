@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <main className="px-5 min-h-screen">
         <div className="py-3 md:py-4">
-          <span className="dark:text-yellow-700 md:ml-[6rem] font-text">
+          <span className="dark:text-yellow-700 md:ml-[6rem]">
             Hi, my name is
           </span>
           <h1 className="py-3 text-6xl  md:text-[10rem] uppercase">
@@ -34,7 +34,7 @@ export default function Home() {
           </div>
         </div>
         <div className="text-xl py-2 md:py-4  flex justify-end">
-          <p className="md:w-[400px]  text-xl font-text">
+          <p className="md:w-[400px]  text-xl">
             Here you can learn more about{" "}
             <Link href="/articles" className="underline">
               how I see the web
