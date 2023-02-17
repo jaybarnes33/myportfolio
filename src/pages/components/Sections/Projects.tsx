@@ -14,7 +14,7 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.name}
-              className="flex flex-col md:flex-row items-center w-full max-h-[490px] gap-3"
+              className="flex flex-col md:flex-row items-center w-full md:max-h-[490px] gap-3"
             >
               <Image
                 priority

@@ -44,7 +44,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <button className="flex  rounded-full bg-neutral-900 text-white px-4 py-2 my-5 hover:bg-black hover:scale-105 transition">
+              <button className="flex rounded-full bg-neutral-900 dark:bg-yellow-700 dark:text-neutral-200 text-white px-4 py-2 my-5 hover:bg-black hover:scale-105 transition">
                 Hire me
               </button>
             </a>

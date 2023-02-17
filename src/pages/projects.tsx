@@ -2,10 +2,12 @@ import { projects } from "@/data/projects";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Heading from "./components/Heading";
 
 const Projects = () => {
   return (
-    <div className="px-5">
+    <div className="px-5 py-4">
+      <Heading name="Projects" />
       {projects.map((project) => (
         <div
           key={project.name}
