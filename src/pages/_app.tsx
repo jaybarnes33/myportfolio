@@ -2,8 +2,13 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import Header from "./components/Header";
 import AppContext from "../context/App";
+import AOS from "aos";
 import Head from "next/head";
+import { useEffect } from "react";
 export default function App({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <AppContext>
       <Head>

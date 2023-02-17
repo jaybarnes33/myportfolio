@@ -25,13 +25,7 @@ const responsive = {
 
 const EndlessCarousel = ({ children }: { children?: ReactNode }) => {
   return (
-    <Carousel
-      pauseOnHover
-      partialVisible
-      responsive={responsive}
-      itemClass="mx-2"
-      infinite
-    >
+    <Carousel pauseOnHover partialVisible responsive={responsive} infinite>
       {children}
     </Carousel>
   );
