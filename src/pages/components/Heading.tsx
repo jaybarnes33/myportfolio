@@ -7,7 +7,7 @@ const Heading = ({ name }: { name: string }) => {
   console.log(pathname);
   console.log(name);
   return (
-    <div className="flex justify-between items-center pt-5 pb-2 border-b">
+    <div className="flex justify-between items-center pt-5 pb-2 border-b-2 border-black dark:border-white">
       <h1
         className={`pb-2  ${
           pathname === `/${name?.toLowerCase()}`
