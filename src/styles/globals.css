@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @font-face {
   font-family: "Neue Machina";
-  src: url("../../public/fonts/NeueMachina-Light.otf");
+  src: url("/fonts/NeueMachina-Light.otf");
   font-weight: light;
 }
 @font-face {
   font-family: "Neue Machina";
-  src: url("../../public/fonts/NeueMachina-Regular.otf");
+  src: url("/fonts/NeueMachina-Regular.otf");
   font-weight: 400;
 }
 @font-face {
   font-family: "Neue Machina";
-  src: url("../../public/fonts/NeueMachina-Ultrabold.otf");
+  src: url("/fonts/NeueMachina-Ultrabold.otf");
   font-weight: bold;
 }
 @tailwind base;
