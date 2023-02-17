@@ -20,7 +20,7 @@ const Projects = () => {
             unoptimized
             className="md:w-[60%] h-full"
           />
-          <div className="md:w-[40%]">
+          <div className="md:w-[40%] px-2">
             <h3 className="text-3xl">{project.name}</h3>
             <p
               className="font-text"
