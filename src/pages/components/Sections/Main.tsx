@@ -47,7 +47,7 @@ const Main = () => {
           </div>
         </div>
         <div className="text-xl md:-mt-[8rem] py-2 flex justify-end">
-          <p className="md:w-[400px]  text-xl">
+          <p className="md:w-[400px] font-text  text-xl">
             Here you can learn more about{" "}
             <Link href="/articles" className="underline">
               how I see the web
