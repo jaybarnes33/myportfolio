@@ -5,9 +5,6 @@ export default function Home() {
     <>
       <Main />
       <Projects />
-      <footer className="flex justify-center py-3">
-        <span> &copy; {new Date().getFullYear()} Otwumasi</span>
-      </footer>
     </>
   );
 }

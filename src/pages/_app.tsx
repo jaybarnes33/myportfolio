@@ -18,6 +18,9 @@ export default function App({ Component, pageProps }: AppProps) {
       <div className="dark:bg-[#1a1a1a] text-neutral-900 dark:text-gray-200 ">
         <Header />
         <Component {...pageProps} />
+        <footer className="flex justify-center py-3">
+          <span> &copy; {new Date().getFullYear()} Otwumasi</span>
+        </footer>
       </div>
     </AppContext>
   );

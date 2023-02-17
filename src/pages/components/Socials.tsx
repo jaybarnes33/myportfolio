@@ -20,6 +20,7 @@ const Socials = () => {
     <ul className="flex gap-7 text-5xl">
       {links.map((link) => (
         <li
+          data-aos="flip-right"
           className="text-neutral-800 transition hover:text-yellow-600 hover:scale-125"
           key={link.link}
         >

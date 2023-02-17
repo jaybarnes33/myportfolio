@@ -12,14 +12,15 @@ const Main = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="h-full">
-        <div className="py-3 md:py-4">
+        <div
+          className="py-3 md:py-4"
+          data-aos="zoom-in-right"
+          data-aos-duration={1000}
+        >
           <span className="dark:text-yellow-700 md:ml-[6rem]">
             Hi, my name is
           </span>
-          <h1
-            className="py-3 text-6xl  md:text-[10rem] uppercase"
-            data-aos="fade-right"
-          >
+          <h1 className="py-3 text-6xl  md:text-[10rem] uppercase">
             {" "}
             John Barnes
           </h1>
@@ -36,7 +37,11 @@ const Main = () => {
             />
           </div>
           <div className="py-3 md:-ml-[10rem]">
-            <p className="text-3xl  md:text-7xl">
+            <p
+              className="text-3xl  md:text-7xl"
+              data-aos-delay={900}
+              data-aos="zoom-up"
+            >
               I&apos;m a fullstack developer in love with programming.
             </p>
             <a
@@ -44,14 +49,21 @@ const Main = () => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <button className="flex rounded-full bg-neutral-900 dark:bg-yellow-700 dark:text-neutral-200 text-white px-4 py-2 my-5 hover:bg-black hover:scale-105 transition">
+              <button
+                className="flex rounded-full bg-neutral-900 md:dark:bg-neutral-900 dark:bg-yellow-700 dark:text-neutral-2
+              00 text-white px-4 py-2 my-5 hover:bg-black hover:scale-105 transition"
+              >
                 Hire me
               </button>
             </a>
           </div>
         </div>
         <div className="text-xl md:-mt-[8rem] py-2 flex justify-end">
-          <p className="md:w-[400px] font-text  text-xl">
+          <p
+            className="md:w-[400px] font-text  text-xl"
+            data-aos="zoom-in-left"
+            data-aos-duration={1000}
+          >
             Here you can learn more about{" "}
             {/* <Link href="/articles" className="underline" > */}
             how I see the web

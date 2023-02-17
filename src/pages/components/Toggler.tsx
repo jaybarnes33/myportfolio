@@ -4,7 +4,7 @@ import React, { useContext } from "react";
 const Toggler = () => {
   const { setTheme, theme } = useContext(AppContext);
   return (
-    <ul className="flex gap-7 border-2 py-2 px-4 rounded-full border-black dark:border-yellow-700">
+    <ul className="flex relative z-[99999] gap-7 border-2 py-2 px-4 rounded-full border-black dark:border-yellow-700">
       <li
         className={
           theme !== "dark" ? "bg-slate-900 text-white rounded-xl px-3" : ""

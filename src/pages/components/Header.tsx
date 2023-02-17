@@ -16,7 +16,7 @@ const Header = () => {
         onClick={() => setToggle(!toggle)}
         className={`${
           theme === "dark" ? "text-neutral-100" : "text-neutral-900"
-        } md:hidden relative z-50 font-bold`}
+        } md:hidden relative z-[99999] font-bold`}
       >
         {!toggle ? <BsListNested /> : <BsX />}
       </div>
@@ -25,8 +25,8 @@ const Header = () => {
         className={`${
           !toggle
             ? "hidden"
-            : "flex items-center justify-center bg-white dark:bg-[#1a1a1a] fixed w-full min-h-full"
-        }  transition md:relative  pb-3 top-0 left-0  flex-col md:flex md:flex-row md:jus  items-center flex-1`}
+            : "flex items-center fade justify-center bg-white dark:bg-[#1a1a1a] fixed w-full min-h-[105vh] pb-[3rem] z-[9999]"
+        }  transition md:relative  pb-3 top-0 left-0  flex-col md:flex md:flex-row md:justify-center  items-center flex-1 `}
       >
         <ul className="flex items-center justify-center flex-col md:flex-row md:justify-start md:items-center flex-1 gap-8">
           {links.map((link) => (
