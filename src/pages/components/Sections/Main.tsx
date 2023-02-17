@@ -12,11 +12,7 @@ const Main = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="h-full">
-        <div
-          className="py-3 md:py-4"
-          data-aos="zoom-in-right"
-          data-aos-duration={1000}
-        >
+        <div className="py-3 md:py-4">
           <span className="dark:text-yellow-700 md:ml-[6rem]">
             Hi, my name is
           </span>
@@ -37,11 +33,7 @@ const Main = () => {
             />
           </div>
           <div className="py-3 md:-ml-[10rem]">
-            <p
-              className="text-3xl  md:text-7xl"
-              data-aos-delay={900}
-              data-aos="zoom-up"
-            >
+            <p className="text-3xl  md:text-7xl">
               I&apos;m a fullstack developer in love with programming.
             </p>
             <a
@@ -59,11 +51,7 @@ const Main = () => {
           </div>
         </div>
         <div className="text-xl md:-mt-[8rem] py-2 flex justify-end">
-          <p
-            className="md:w-[400px] font-text  text-xl"
-            data-aos="zoom-in-left"
-            data-aos-duration={1000}
-          >
+          <p className="md:w-[400px] font-text  text-xl">
             Here you can learn more about{" "}
             {/* <Link href="/articles" className="underline" > */}
             how I see the web

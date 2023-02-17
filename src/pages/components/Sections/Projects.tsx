@@ -13,7 +13,6 @@ const Projects = () => {
         <EndlessCarousel>
           {projects.map((project) => (
             <div
-              data-aos="flip-left"
               key={project.name}
               className="flex flex-col md:flex-row items-center w-full md:max-h-[490px] gap-3"
             >
@@ -27,9 +26,7 @@ const Projects = () => {
                 className="md:w-[60%] h-full"
               />
               <div className="md:w-[40%] px-2">
-                <h3 className="text-3xl" data-aos="flip-right">
-                  {project.name}
-                </h3>
+                <h3 className="text-3xl">{project.name}</h3>
                 <p
                   className="font-text mb-2"
                   dangerouslySetInnerHTML={{ __html: project.description }}
