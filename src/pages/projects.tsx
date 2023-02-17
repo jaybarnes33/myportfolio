@@ -26,6 +26,9 @@ const Projects = () => {
               className="font-text"
               dangerouslySetInnerHTML={{ __html: project.description }}
             ></p>
+            <p className="my-2 font-text text-yellow-700">
+              Technologies: {project.tools}
+            </p>
             <Link href={project.url} target="_blank" rel="noreferrer noopener">
               <span className="underline">View Project &rarr;</span>
             </Link>

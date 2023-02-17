@@ -14,7 +14,7 @@ export const AppContext = createContext<{
 import React from "react";
 
 const App = ({ children }: { children: ReactNode }) => {
-  const [theme, setTheme] = useState("");
+  const [theme, setTheme] = useState("dark");
   return (
     <AppContext.Provider value={{ theme, setTheme }}>
       <div className={theme}>{children}</div>

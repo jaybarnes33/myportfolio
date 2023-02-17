@@ -24,11 +24,12 @@ const Main = () => {
         <div className="grid md:grid-cols-2 gap-3 place-items-center">
           <div className="bg-yellow-500 dark:bg-yellow-700 grid place-items-center h-[250px] md:h-[500px]  w-full rounded-3xl">
             <Image
+              unoptimized
               src="/barnes.png"
               alt="image"
               width={200}
               height={200}
-              className="h-full md:w-[350px]"
+              className="h-full md:w-[470px]"
             />
           </div>
           <div className="py-3 md:-ml-[10rem]">
@@ -40,7 +41,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <button className="flex ] rounded-full bg-black text-white px-4 py-2">
+              <button className="flex  rounded-full bg-neutral-900 text-white px-4 py-2 my-5 hover:bg-black hover:scale-105 transition">
                 Hire me
               </button>
             </a>

@@ -31,6 +31,9 @@ const Projects = () => {
                   className="font-text mb-2"
                   dangerouslySetInnerHTML={{ __html: project.description }}
                 ></p>
+                <p className="my-2 font-text text-yellow-700">
+                  Technologies: {project.tools}
+                </p>
                 <Link
                   href={project.url}
                   target="_blank"
