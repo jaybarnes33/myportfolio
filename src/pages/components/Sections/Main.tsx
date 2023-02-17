@@ -53,17 +53,15 @@ const Main = () => {
         <div className="text-xl md:-mt-[8rem] py-2 flex justify-end">
           <p className="md:w-[400px] font-text  text-xl">
             Here you can learn more about{" "}
-            <Link href="/articles" className="underline">
-              how I see the web
-            </Link>
-            , find some of{" "}
+            {/* <Link href="/articles" className="underline" > */}
+            how I see the web
+            {/* </Link> */}, find some of{" "}
             <Link href="/projects" className="underline">
               my projects
             </Link>{" "}
-            and information{" "}
-            <Link href="/about" className="underline">
-              about me.
-            </Link>
+            and information {/* <Link href="/about" className="underline"> */}
+            about me.
+            {/* </Link> */}
           </p>
         </div>
       </main>
