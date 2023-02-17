@@ -16,7 +16,10 @@ const Main = () => {
           <span className="dark:text-yellow-700 md:ml-[6rem]">
             Hi, my name is
           </span>
-          <h1 className="py-3 text-6xl  md:text-[10rem] uppercase">
+          <h1
+            className="py-3 text-6xl  md:text-[10rem] uppercase"
+            data-aos="fade-right"
+          >
             {" "}
             John Barnes
           </h1>
