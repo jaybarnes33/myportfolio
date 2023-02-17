@@ -10,7 +10,7 @@ const Heading = ({ name }: { name: string }) => {
     <div className="flex justify-between items-center pt-5 pb-2 border-b">
       <h1
         className={`pb-2  ${
-          pathname === `/${name.toLowerCase()}`
+          pathname === `/${name?.toLowerCase()}`
             ? "text-5xl md:text-9xl"
             : "text-4xl md:text-9xl"
         }   uppercase`}
