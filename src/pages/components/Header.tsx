@@ -6,7 +6,7 @@ import { BsListNested, BsX } from "react-icons/bs";
 import { AppContext } from "@/context/App";
 
 const Header = () => {
-  const links = ["home", "projects"];
+  const links = ["home", "projects", "blog"];
   const [toggle, setToggle] = useState(false);
   const { theme } = useContext(AppContext);
   const { pathname } = useRouter();

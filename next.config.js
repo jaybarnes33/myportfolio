@@ -7,6 +7,11 @@ const nextConfig = {
         destination: "/",
         permanent: true,
       },
+      {
+        source: "/blog",
+        destination: "https://blog.otwumasi.tech",
+        permanent: true,
+      },
     ];
   },
   reactStrictMode: true,
